@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Poppins-Black;
+    src: url('/fonts/Poppins/Poppins-Black.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: Poppins-Regular;
+    src: url('/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+body{
+    background-image: url(/images/5816193.jpg);
+    background-size: cover; 
+    background-position: center;
+}
+
+h3{
+    font-family: Poppins-Black;
+    color: #052D35;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 45px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.login-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-form form{
+    justify-content: space-between;
+    text-align: center;
+    width: 700px;
+    height: 500px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+form label{
+    font-family: Poppins-Regular;
+    font-size: 15px;
+    text-align: right;
+}
+
+form input[type=text]{
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #36D9D8;
+    border-radius: 5px; 
+    color: #052D35; 
+    outline: none; 
+}
+
+form input[type=password]{
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #36D9D8;
+    border-radius: 5px; 
+    color: #052D35; 
+    outline: none; 
+}

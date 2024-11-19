@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Poppins-Black;
+    src: url('/fonts/Poppins/Poppins-Black.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: Poppins-Regular;
+    src: url('/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+body{
+    background-color: #F1F3FF;
+}
+
+.nav-bar{
+    font-family: Poppins-Regular;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #052D35;
+    padding: 20px;
+}
+
+.brand{
+    font-family: Poppins-Black;
+    display: flex;
+    justify-content:flex-start;
+}
+
+.brand img{
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+}
+
+.brand span{
+    font-size: 15px;
+    color: #FFFFFF;
+    letter-spacing: 5px;
+    margin-right: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar ul{
+    list-style-type: none;
+    margin-top: 10px;
+    margin-right: 70px;
+}
+
+.nav-bar ul li{
+    display: inline;
+}
+
+.nav-bar a {
+    padding: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.nav-bar a:hover {
+    font-weight: bolder;
+}
+
+.new-item{
+    background-color: #EEC834;
+    border: none;
+    border-radius: 50px;
+    width: 150px;
+    height: 35px;
+    margin-top: 25px;
+    margin-left: 1350px;
+
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;;
+    font-weight: bold;
+}
+
+h5{
+    font-family: Poppins-Black;
+    font-size: 14px;
+    color: #707070; 
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-container .queued-items{
+    border: solid #707070;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin-left: 15px;
+    width: 450px;
+    height: 520px;
+}
+
+.flex-container .item-info{
+    border: solid #707070;
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 1000px;
+    height: 520px;
+}
+
+#match-found{
+    background-color: #08525F;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 35px;
+
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;;
+    font-weight: bold;
+}
+
+#edit-item{
+    background-color: #09ABB0;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 35px;
+
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;;
+    font-weight: bold;
+}
+
+/* .showFormButton{
+    background-color: transparent; 
+    border: none; 
+    padding: 0; 
+}
+
+.showFormButton img{
+    width: 100px;
+    height: auto;
+    position: fixed; 
+    bottom: 40px; 
+    right: 40px; 
+    cursor: pointer;
+}
+
+.addLostItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.addLostItem form{
+    text-align: center;
+    width: 600px;
+    height: auto;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 0 auto;
+}
+    
+form label{
+    font-family: Poppins-Regular;
+    font-size: 15px;
+}
+    
+form input[type=text]{
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #36D9D8;
+    border-radius: 5px; 
+    color: #052D35; 
+    outline: none; 
+} */
